@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .container {
 }
 
@@ -11,7 +15,7 @@
   width : 1170px;
   height: 300px;
   background-color: #000;
-  opacity: 0.6;
+  opacity: 0.42;
   position : absolute;
 }
 
@@ -56,6 +60,11 @@
   text-transform: uppercase;
 }
 
+#blog_2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
 .footer1 {
   width: 1140px;
   height: 206px;
@@ -71,7 +80,7 @@
 #logo_vdef {
   width: 100px;
   height: 100px;
-  margin-top: 20px;;
+  margin-top: 20px;
 
 }
 
@@ -111,9 +120,10 @@ ul {
   justify-content: center;
   color: #fff;
   font-family: "Josefin Sans";
-  font-size: 17px;
+  font-size: 12px;
   font-weight: 400;
   text-align: center;
+  text-transform: uppercase;
 }
 
 ul > li {
@@ -163,14 +173,14 @@ span {
   height: 16px;
   color: #acacbd;
   font-family: "Playfair Display";
-  font-size: 14px;
+  font-size: 12px;
 }
 .p_2 {
   margin-bottom: 70px;
   height: 30px;
   color: #0d0d27;
   font-family: "Quicksand";
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .tout_murs_images {
@@ -190,39 +200,156 @@ button {
 
 #logo_2 {
   margin-top: 60px;
-  height: 105px;
+  height: 115px;
 }
 
 .p_footer1 {
   margin-top: 60px;
   width: 218px;
-  height: 8px;
   color: #ffffff;
   font-family: "Josefin Sans";
   font-size: 10px;
   font-weight: 300;
   line-height: 20px;
   text-transform: uppercase;
+  text-align: left;
+  padding-left: 5px
 }
 
 .p_footer2 {
-  height: 57px;
+
   color: #ffffff;
   font-family: "Quicksand";
-  font-size: 9px;
+  font-size: 7px;
   font-weight: 300;
   line-height: 20px;
   padding-top: 1px;
   text-align: center;
+  padding-right: 5px;
+  padding-bottom: 15px;
 }
 
 
 .p_footer3 {
-  height: 57px;
+
   color: #ffffff;
+  font-family: "Quicksand";
+  font-size: 7px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.p_footer4 {
+  height: 9px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 58px;
+  text-align: center;
+}
+
+#facebook2 {
+  width: 7px;
+  height: 15px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#twitter2 {
+  width: 17px;
+  height: 18px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#instagram2 {
+  width: 17px;
+  height: 16px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#pinterest2 {
+  width: 15px;
+  height: 17px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.p_footer5 {
+  height: 10px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+
+#image_footer1 {
+  height: 35px;
+  margin-top: 35px;
+}
+#image_footer2 {
+  height: 35px;
+  margin-top: 35px;
+}
+
+#image_footer3 {
+  height: 35px;
+  margin-top: 35px;
+}
+#image_footer4 {
+  height: 35px;
+  margin-top: 35px;
+}
+#image_footer5 {
+  height: 35px;
+  margin-top: 11px;
+}
+#image_footer6 {
+  height: 35px;
+  margin-top: 10px;
+}
+#image_footer7 {
+  height: 35px;
+  margin-top: 10px;
+}
+#image_footer8 {
+  height: 35px;
+  margin-top: 10px;
+}
+
+#logovert {
+  height: 31px;
+  margin-left: 190px;
+  margin-top: 22px;
+}
+
+.p_footer6 {
+  height: 20px;
+  color: #808093;
   font-family: "Quicksand";
   font-size: 9px;
   font-weight: 300;
-  line-height: 20px;
-  padding-top: 1px;
+  line-height: 19px;
+  margin-right: 120px;
+}
+
+.p_footer7 {
+height: 9px;
+color: #53535f;
+font-family: "Quicksand";
+font-size: 9px;
+font-weight: 300;
+line-height: 20px;
+margin-left: 205px;
 }
